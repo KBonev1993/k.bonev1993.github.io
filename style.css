@@ -1,73 +1,27 @@
-:root {
-    --neutral-1000: #6b0000; /* Dark Red */
-    --neutral-200: #e0dff1;
-    --white: white;
-    --primary-1: #6639e4;
-    --neutral-900: #282454;
-    --neutral-800: #53516c;
-    --neutral-700: #6b6888;
-    --neutral-600: #a09fb4;
-    --neutral-500: #7a73c4;
-    --neutral-400: #9c97d3;
-    --neutral-300: #bebbe2;
-    --neutral-100-1001: #f1f1f9;
-    --primary-2: #f66688;
-    --secondary-1: #dfdcff;
-}
-
+/* Add some basic styling */
 body {
-    background-color: var(--neutral-1000);
-    color: var(--neutral-200);
-    font-family: Poppins, sans-serif;
-    font-size: 18px;
-    line-height: 1.778em;
-    margin: 0;
-}
-
-header {
-    background-color: var(--primary-1);
-    color: var(--white);
-    padding: 20px;
+    font-family: Arial, sans-serif;
     text-align: center;
+    background-color: #f0f0f0;
 }
 
-nav {
-    display: flex;
-    justify-content: flex-start;
+h1 {
+    color: #333;
 }
 
-.menu {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
+p {
+    color: #666;
 }
 
-.menu li {
-    margin: 0;
-    padding: 0;
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-.menu a {
-    text-decoration: none;
-    color: var(--white);
-    font-weight: bold;
-    font-size: 16px;
-    transition: color 0.3s;
-}
-
-.menu a:hover {
-    color: var(--neutral-300);
-}
-
-main {
-    padding: 20px;
-}
-
-footer {
-    background-color: var(--neutral-900);
-    color: var(--white);
-    text-align: center;
-    padding: 10px;
+button:hover {
+    background-color: #0056b3;
 }
