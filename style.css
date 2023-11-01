@@ -21,6 +21,23 @@ body {
     font-family: Poppins, sans-serif;
     font-size: 18px;
     line-height: 1.778em;
+    margin: 0;
 }
 
-/* Update other styles as needed */
+header {
+    background-color: var(--primary-1);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: var(--neutral-900);
+    color: var(--white);
+    text-align: center;
+    padding: 10px;
+}
