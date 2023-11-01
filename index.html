@@ -1,34 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
+    <title>TradingView-like Website</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Web Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Charts</a></li>
+                <li><a href="#">Indicators</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
     <main>
-        <section>
-            <h2>About Me</h2>
-            <p>This is a brief introduction about me.</p>
-        </section>
-        <section>
-            <h2>Contact Information</h2>
-            <p>You can reach me at example@email.com</p>
-        </section>
+        <div class="chart-container">
+            <canvas id="financial-chart"></canvas>
+        </div>
+        <div class="side-panel">
+            <!-- Add tools and drawing options here -->
+        </div>
     </main>
     <footer>
-        <p>&copy; 2023 My Web Page</p>
+        <!-- Add data widgets and indicators here -->
     </footer>
 </body>
 </html>
