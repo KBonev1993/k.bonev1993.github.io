@@ -11,20 +11,27 @@
 <!-- Font Google -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.navbar-logo img {
+  max-width: 100px; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 20px; /* Adjust the spacing as needed */
+}
+</style>
 </head>
 
 <body>
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg">
-  <div class="container"> <a class="navbar-brand navbar-logo" href="#"> <img src="images/benfranklin.jpg" alt="logo" class="logo-1"> </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="fas fa-bars"></span> </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"> <a class="nav-link" href="" data-scroll-nav="0">Home</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1">About</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="https://twitter.com/TheCoinHustlers" target="_blank" rel="noopener noreferrer">Contact</a> </li>
-      </ul>
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="navbar-logo">
+      <img src="images/benfranklin.jpg" alt="logo">
     </div>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"> <a class="nav-link" href="" data-scroll-nav="0">Home</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1">About</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="https://twitter.com/TheCoinHustlers" target="_blank" rel="noopener noreferrer">Contact</a> </li>
+    </ul>
   </div>
 </nav>
 <!-- End Navbar --> 
@@ -37,4 +44,74 @@
           <div class="banner-text">
             <h2 class="white">The Coin Hustlers</h2>
             <h6 class="white">This awesome template.</h6>
-            <p class="banner-text white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit neque massa, sit amet tristique ante porta ut. In sodales et justo vel vulputate. Pellentesque habitant morbi tristique senectus et netus
+            <p class="banner-text white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit neque massa, sit amet tristique ante porta ut. In sodales et justo vel vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <ul>
+              <li><a href="#"><img src="images/appstore.png" class="wow fadeInUp" data-wow-delay="0.4s"/></a></li>
+              <li><a href="#"><img src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s"/></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12"> <img src="images/iphone-screen.png" class="img-fluid wow fadeInUp"/> </div>
+      </div>
+    </div>
+  </div>
+  <span class="svg-wave"> <img class="svg-hero" src="images/applight-wave.svg"> </span> </section>
+
+<!-------Banner End-------> 
+
+<!-------About End------->
+
+<section class="about section-padding prelative" data-scroll-index='1'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>About</h3>
+          <span class="line"></span>
+          <p>Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.</p>
+        </div>
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> <i class="fa fa-life-ring" aria-hidden="true"></i>
+                <h5>Support</h5>
+                <p>Phasellus lobortis justo a magna facilisis, in commodo tellus rutrum. Sed vitae condimentum nulla.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.4s"> <i class="fa fa-mobile" aria-hidden="true"></i>
+                <h5>Cross Platform</h5>
+                <p>Phasellus lobortis justo a magna facilisis, in commodo tellus rutrum. Sed vitae condimentum nulla.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.6s"> <i class="fa fa-bolt" aria-hidden="true"></i>
+                <h5>Fast</h5>
+                <p>Phasellus lobortis justo a magna facilisis, in commodo tellus rutrum. Sed vitae condimentum nulla.</p>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="about-btn">Learn More</a> </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-------About End-------> 
+
+<!-------Video Start------->
+<section class="video-section prelative text-center white">
+  <div class="section-padding video-overlay">
+    <div class "container">
+      <h3>Watch Now</h3>
+      <i class="fa fa-play" id="video-icon" aria-hidden="true"></i>
+      <div class="video-popup">
+        <div class="video-src">
+          <div class="iframe-src">
+            <iframe src="https://www.youtube.com/embed/Ku52zNnft8k?rel=0&showinfo=0" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-------Video End
