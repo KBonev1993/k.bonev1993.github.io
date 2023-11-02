@@ -9,6 +9,40 @@ body {
 .terminal {
     background-color: #000;
     border: 2px solid #00FF00;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.terminal-header {
+    background-color: #333;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.terminal-header span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.red {
+    background-color: #FF5F56;
+}
+
+.yellow {
+    background-color: #FFBD2E;
+}
+
+.green {
+    background-color: #27C93F;
+}
+
+.terminal-content {
     padding: 10px;
     white-space: pre-wrap;
 }
