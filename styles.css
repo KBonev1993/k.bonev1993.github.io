@@ -61,10 +61,25 @@ body, html {
     flex-direction: column;
 }
 
+#terminal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1em; /* To not overlap with the scrollbar */
+}
+
+#profile-picture {
+    width: 200px; /* Adjust the size as needed */
+    height: auto; /* Keep aspect ratio */
+    border-radius: 50%;
+    order: 2; /* Align to the right */
+}
+
 #terminal-body {
     flex-grow: 1;
     overflow-y: auto;
     padding-bottom: 2em; /* Make space for the input bar */
+    text-align: left;
 }
 
 #terminal-footer {
@@ -81,11 +96,4 @@ body, html {
     font-family: 'Monospace', monospace;
     font-size: 1em;
     outline: none;
-}
-
-#profile-picture {
-    max-width: 100px; /* Adjust the size as needed */
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto 1em;
 }
