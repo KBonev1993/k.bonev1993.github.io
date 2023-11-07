@@ -64,14 +64,12 @@ function handleCommand(command) {
             break;
         case 'skills':
             commandOutput.innerHTML = `
-                <p><span class="highlight">Skills:</span></p>
-                <ul>
-                    <li>Software Support & Troubleshooting</li>
-                    <li>Cybersecurity & Penetration Testing</li>
-                    <li>Python Programming</li>
-                    <li>Financial Analysis</li>
-                    <li>Technical Communication</li>
-                </ul>
+                <p><span class="highlight">Languages and Tools:</span></p>
+                <div class="skills-icons">
+                    <a href="https://skillicons.dev" target="_blank">
+                        <img src="https://skillicons.dev/icons?i=python,js,vscode,html,css,bash,linux,mysql,aws,azure,postman,raspberrypi" alt="Languages and Tools" />
+                    </a>
+                </div>
             `;
             break;
         case 'certificates':
