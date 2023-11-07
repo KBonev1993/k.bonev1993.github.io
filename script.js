@@ -6,7 +6,7 @@ document.getElementById('command-line').addEventListener('keydown', function(eve
 });
 
 const welcomeMessage = `
-    <p class="output">Welcome to k.bonev1993's Kali Linux Terminal Portfolio</p>
+    <p class="output">Welcome to My Terminal Portfolio</p>
     <p class="output">Type 'about' to learn more about me.</p>
     <p class="output">Type 'skills' to list my skills.</p>
     <p class="output">Type 'certificates' to view my certificates.</p>
