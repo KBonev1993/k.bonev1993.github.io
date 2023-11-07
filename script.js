@@ -81,17 +81,17 @@ function handleCommand(command) {
             // ... Your 'projects' case code ...
             break;
         case 'contact':
-            commandOutput.innerHTML = `
-                <p><span class="highlight">Contact Information:</span></p>
-                <p>Email: k.bonev1993@example.com</p>
-                <div>
-                    <a href="https://www.linkedin.com/in/kristiyan-bonev-53b374231/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
-                    <a href="https://github.com/kbonev1993" target="_blank"><img align="center" src="https://skillicons.dev/icons?i=github" alt="Kristiyan Bonev GitHub"/></a>
-                    <a href="https://twitter.com/TheCoinHustlers" target="_blank"><img src="https://skillicons.dev/icons?i=twitter" alt="Twitter" /></a>
-                    <a href="https://discord.gg/USQV5F2sY9" target="_blank"><img src="https://skillicons.dev/icons?i=discord" alt="Discord" /></a>
-                </div>
-            `;
-            break;
+    commandOutput.innerHTML = `
+        <p><span class="highlight">Contact Information:</span></p>
+        <p>Email: k.bonev1993@example.com</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/kristiyan-bonev-53b374231/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
+            <a href="https://github.com/kbonev1993" target="_blank"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a>
+            <a href="https://twitter.com/TheCoinHustlers" target="_blank"><img src="https://skillicons.dev/icons?i=twitter" alt="Twitter" /></a>
+            <a href="https://discord.gg/USQV5F2sY9" target="_blank"><img src="https://skillicons.dev/icons?i=discord" alt="Discord" /></a>
+        </div>
+    `;
+    break;
 
         default:
             commandOutput.innerHTML = 'Invalid Command!';
