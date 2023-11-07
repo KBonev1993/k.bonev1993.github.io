@@ -64,7 +64,19 @@ body, html {
 #terminal-header {
     display: flex;
     justify-content: space-between; /* This will push the child elements to the edges */
+    align-items: flex-start; /* Align items to the top */
     padding: 1em;
+}
+
+#text-container {
+    flex-grow: 1;
+    /* If you have additional styling for the text, add it here */
+}
+
+#profile-picture {
+    width: 200px; /* Adjust the size as needed */
+    height: auto; /* Keep aspect ratio */
+    border-radius: 50%;
 }
 
 #profile-picture {
