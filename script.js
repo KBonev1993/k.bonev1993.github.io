@@ -6,6 +6,7 @@ document.getElementById('command-line').addEventListener('keydown', function(eve
 });
 
 const welcomeMessage = `
+    <img src="images/me.png" alt="Me" id="profile-picture">
     <p>Welcome to k.bonev1993's Kali Linux Terminal Portfolio</p>
     <p>Type 'about' to learn more about me.</p>
     <p>Type 'certificates' to view my certificates.</p>
@@ -25,7 +26,7 @@ function handleCommand(command) {
 
     var userCommand = document.createElement('div');
     userCommand.textContent = 'k.bonev1993@kali: ~$ ' + command;
-    userCommand.style.color = '#4CAF50';
+    userCommand.style.color = '#FF0000'; // Red text for commands
     terminalBody.appendChild(userCommand);
 
     switch(command.toLowerCase()) {
@@ -40,6 +41,7 @@ function handleCommand(command) {
             break;
         default:
             commandOutput.textContent = 'Invalid input!';
+            commandOutput.style.color = '#FF0000'; // Red text for invalid input
     }
 
     terminalBody.appendChild(commandOutput);
