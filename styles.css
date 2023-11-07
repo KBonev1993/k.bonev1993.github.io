@@ -122,3 +122,15 @@ body, html {
 .highlight {
     color: #FF0000; /* Red color */
 }
+
+/* Styles for social media icons */
+.social-links a {
+    display: inline-block;
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.social-links img {
+    width: 24px; /* Adjust the size as needed */
+    height: auto;
+    vertical-align: middle; /* Aligns the image vertically with the text if any */
+}
