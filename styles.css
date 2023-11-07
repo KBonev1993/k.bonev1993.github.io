@@ -12,16 +12,16 @@ body, html {
     height: 80%;
     margin: 2em auto;
     background-color: rgba(0, 0, 0, 0.75);
-    border: 1px solid #FF0000;
+    border: 1px solid #FF0000; /* Red border */
     color: #fff;
-    box-shadow: 0 0 10px #4CAF50;
+    box-shadow: 0 0 10px #FF0000; /* Red shadow */
     display: flex;
     flex-direction: column;
 }
 
 #window-header {
     background-color: #000;
-    color: #FF0000;
+    color: #FF0000; /* Red text */
     padding: 0.5em;
     display: flex;
     align-items: center;
@@ -86,11 +86,10 @@ body, html {
     outline: none; /* Remove focus outline */
 }
 
-/* Additional styles for content */
 #about-me img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
     display: block;
-    margin: 0 auto 1em;
+    margin: 0 auto 1em; /* Center the image and add space below */
+    max-width: 100px; /* Set a maximum width for the image */
+    height: auto; /* Keep the aspect ratio of the image */
+    border-radius: 50%; /* Optional: makes the image round */
 }
