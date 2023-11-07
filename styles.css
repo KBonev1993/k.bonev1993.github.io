@@ -130,7 +130,7 @@ body, html {
 }
 
 .social-links img {
-    width: 24px; /* Adjust the size as needed */
+    width: 24px; /* This sets the size for the contact icons */
     height: auto;
     vertical-align: middle; /* Aligns the image vertically with the text if any */
 }
@@ -143,7 +143,7 @@ body, html {
 }
 
 .skills-icons img {
-    height: 24px; /* Sets a fixed height for all icons */
-    width: auto; /* Ensures the width is automatically adjusted to maintain aspect ratio */
+    width: 24px; /* This will set the skills icons to be the same width as the contact icons */
+    height: auto; /* Height will scale automatically */
     cursor: pointer; /* Changes the cursor to indicate the icon is clickable */
 }
