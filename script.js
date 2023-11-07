@@ -86,6 +86,7 @@ function handleCommand(command) {
                 <p>Email: k.bonev1993@example.com</p>
                 <div>
                     <a href="https://www.linkedin.com/in/kristiyan-bonev-53b374231/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
+                    <a href="https://github.com/kbonev1993" target="_blank"><img align="center" src="https://skillicons.dev/icons?i=github" alt="Kristiyan Bonev GitHub"/></a>
                     <a href="https://twitter.com/TheCoinHustlers" target="_blank"><img src="https://skillicons.dev/icons?i=twitter" alt="Twitter" /></a>
                     <a href="https://discord.gg/USQV5F2sY9" target="_blank"><img src="https://skillicons.dev/icons?i=discord" alt="Discord" /></a>
                 </div>
