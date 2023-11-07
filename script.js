@@ -35,13 +35,13 @@ function handleCommand(command) {
                 <p>I'm a dynamic professional with a strong background in software support, cybersecurity, penetration testing, and finance. My career journey has equipped me with a versatile skill set, enabling me to bridge the gap between technical intricacies and practical solutions.</p>
                 <p>With experience in software support, I swiftly resolve issues while effectively communicating complex technical concepts to clients. In cybersecurity, I identify vulnerabilities and collaborate with experts to enhance security protocols. My finance background adds a strong analytical perspective to my problem-solving approach.</p>
                 <p>Adaptable and eager to learn, I'm driven to contribute to innovative projects that leverage my diverse expertise.</p>
-                <p><strong>CURRENT POSITION</strong><br>
+                <p><span class="highlight">CURRENT POSITION</span><br>
                 SW/APP/Cloud Tech Support Analyst [Nov 2022 – Current]<br>
                 Accenture</p>
                 <p>Provide technical support for software, applications, and cloud services, resolving issues promptly.<br>
                 Collaborate with customers to troubleshoot and diagnose technical problems, ensuring client satisfaction.<br>
                 Communicate complex technical concepts in a clear and understandable manner.</p>
-                <p><strong>EDUCATION AND TRAINING</strong><br>
+                <p><span class="highlight">EDUCATION AND TRAINING</span><br>
                 Jr. Penetration Tester [Sep 2023]<br>
                 TryHackMe</p>
                 <p>Participate in penetration testing exercises, identifying vulnerabilities and suggesting remediation strategies.<br>
