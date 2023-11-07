@@ -74,11 +74,12 @@ body, html {
 }
 
 #command-line {
-    width: calc(100% - 1em);
+    width: 100%;
     background-color: transparent;
     color: #4CAF50;
     border: none;
     padding: 0.5em;
     font-family: 'Monospace', monospace;
     font-size: 1em;
+    outline: none;
 }
