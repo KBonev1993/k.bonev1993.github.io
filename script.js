@@ -7,36 +7,37 @@ document.getElementById('command-line').addEventListener('keydown', function(eve
 
 function handleCommand(command) {
     var terminalBody = document.getElementById('terminal-body');
-    var aboutMe = document.getElementById('about-me');
-    var myCertificates = document.getElementById('my-certificates');
-    var myProjects = document.getElementById('my-projects');
+    var commandOutput = document.createElement('div');
 
-    aboutMe.style.display = 'none';
-    myCertificates.style.display = 'none';
-    myProjects.style.display = 'none';
+    if (command.toLowerCase() === 'clear') {
+        terminalBody.innerHTML = '';
+        return;
+    }
 
-    switch(command) {
+    var userCommand = document.createElement('div');
+    userCommand.textContent = 'k.bonev1993@kali: ~$ ' + command;
+    userCommand.style.color = '#4CAF50';
+    terminalBody.appendChild(userCommand);
+
+    switch(command.toLowerCase()) {
         case 'about':
-            aboutMe.style.display = 'block';
+            commandOutput.innerHTML = '<p>This is where you would put information about yourself.</p>';
             break;
         case 'certificates':
-            myCertificates.style.display = 'block';
+            commandOutput.innerHTML = '<p>Listing certificates...</p>';
+            // Add more HTML to display your certificates
             break;
         case 'projects':
-            myProjects.style.display = 'block';
+            commandOutput.innerHTML = '<p>Showing projects...</p>';
+            // Add more HTML to display your projects
             break;
         default:
-            terminalBody.innerHTML = '<p>Command not found</p>';
+            commandOutput.innerHTML = '<p>Command not found.</p>';
     }
+
+    terminalBody.appendChild(commandOutput);
+    terminalBody.scrollTop = terminalBody.scrollHeight;
 }
 
 window.onload = function() {
-    var terminalBody = document.getElementById('terminal-body');
-    terminalBody.innerHTML = `
-        <p>Welcome to k.bonev1993's Kali Linux Terminal Portfolio</p>
-        <p>Type 'about' to learn more about me.</p>
-        <p>Type 'certificates' to view my certificates.</p>
-        <p>Type 'projects' to see my projects.</p>
-        <p>What would you like to do?</p>
-    `;
-};
+    var terminalBody = document.getElementById
