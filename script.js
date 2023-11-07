@@ -6,7 +6,7 @@ document.getElementById('command-line').addEventListener('keydown', function(eve
 });
 
 const welcomeMessage = `
-    <p class="output">Welcome to k.bonev1993's Kali Linux Terminal Portfolio</p>
+    <p class="output">Welcome to Terminal Portfolio</p>
     <p class="output">Type 'about' to learn more about me.</p>
     <p class="output">Type 'certificates' to view my certificates.</p>
     <p class="output">Type 'projects' to see my projects.</p>
@@ -25,7 +25,7 @@ function handleCommand(command) {
     }
 
     var userCommand = document.createElement('div');
-    userCommand.innerHTML = `<span class="prompt">k.bonev1993@kali: ~$</span> <span class="command">${command}</span>`;
+    userCommand.innerHTML = `<span class="prompt">k.bonev1993@kali: </span> <span class="command">${command}</span>`;
     terminalBody.appendChild(userCommand);
 
     switch(command.toLowerCase()) {
