@@ -8,8 +8,10 @@ document.getElementById('command-line').addEventListener('keydown', function(eve
 const welcomeMessage = `
     <p class="output">Welcome to k.bonev1993's Kali Linux Terminal Portfolio</p>
     <p class="output">Type 'about' to learn more about me.</p>
+    <p class="output">Type 'skills' to list my skills.</p>
     <p class="output">Type 'certificates' to view my certificates.</p>
     <p class="output">Type 'projects' to see my projects.</p>
+    <p class="output">Type 'contact' to get in touch with me.</p>
     <p class="output">Type 'clear' to clear the terminal.</p>
     <p class="output">What would you like to do?</p>
 `;
@@ -60,11 +62,31 @@ function handleCommand(command) {
                 Developed strong analytical and problem-solving skills in a finance-focused curriculum.</p>
             `;
             break;
+        case 'skills':
+            commandOutput.innerHTML = `
+                <p><span class="highlight">Skills:</span></p>
+                <ul>
+                    <li>Software Support & Troubleshooting</li>
+                    <li>Cybersecurity & Penetration Testing</li>
+                    <li>Python Programming</li>
+                    <li>Financial Analysis</li>
+                    <li>Technical Communication</li>
+                </ul>
+            `;
+            break;
         case 'certificates':
-            commandOutput.innerHTML = '<p>Certificates: [Your certificates here]</p>';
+            // ... Your 'certificates' case code ...
             break;
         case 'projects':
-            commandOutput.innerHTML = '<p>Projects: [Your projects here]</p>';
+            // ... Your 'projects' case code ...
+            break;
+        case 'contact':
+            commandOutput.innerHTML = `
+                <p><span class="highlight">Contact Information:</span></p>
+                <p>Email: k.bonev1993@example.com</p>
+                <p>LinkedIn: linkedin.com/in/kbonev1993</p>
+                <p>GitHub: github.com/kbonev1993</p>
+            `;
             break;
         default:
             commandOutput.textContent = 'Invalid input!';
