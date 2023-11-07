@@ -14,7 +14,7 @@ body, html {
     background-color: rgba(0, 0, 0, 0.75);
     border: 1px solid #FF0000; /* Red border */
     color: #fff;
-    box-shadow: 0 0 10px #FF0000; /* Red shadow */
+    box-shadow: 0 0 10px #FF0000; /* Red glow */
     display: flex;
     flex-direction: column;
 }
@@ -57,39 +57,35 @@ body, html {
     padding: 1em;
     flex-grow: 1;
     overflow-y: auto;
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 #terminal-body {
-    min-height: 300px;
-    padding-bottom: 50px; /* Make space for the input bar */
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-bottom: 2em; /* Make space for the input bar */
 }
 
 #terminal-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0; /* Align to the left */
-    right: 0; /* Align to the right */
     padding: 0.5em;
-    box-sizing: border-box; /* Include padding in the width calculation */
     background-color: rgba(0, 0, 0, 0.85);
 }
 
 #command-line {
     width: calc(100% - 2em); /* Adjust width to account for padding */
     background-color: transparent;
-    color: #4CAF50;
+    color: #FF0000; /* Red text */
     border: none;
-    padding: 0.5em 1em; /* Same horizontal padding as #terminal to align text */
+    padding: 0.5em 1em;
     font-family: 'Monospace', monospace;
     font-size: 1em;
-    outline: none; /* Remove focus outline */
+    outline: none;
 }
 
-#about-me img {
+#profile-picture {
+    max-width: 100px; /* Adjust the size as needed */
+    border-radius: 50%;
     display: block;
-    margin: 0 auto 1em; /* Center the image and add space below */
-    max-width: 100px; /* Set a maximum width for the image */
-    height: auto; /* Keep the aspect ratio of the image */
-    border-radius: 50%; /* Optional: makes the image round */
+    margin: 0 auto 1em;
 }
