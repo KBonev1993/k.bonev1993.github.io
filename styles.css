@@ -117,3 +117,8 @@ body, html {
 .output {
     color: #FFFFFF;
 }
+
+/* New class for the red highlighted text */
+.highlight {
+    color: #FF0000; /* Red color */
+}
