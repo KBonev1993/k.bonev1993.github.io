@@ -63,16 +63,14 @@ body, html {
 
 #terminal-header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 1em; /* To not overlap with the scrollbar */
+    justify-content: space-between; /* This will push the child elements to the edges */
+    padding: 1em;
 }
 
 #profile-picture {
     width: 200px; /* Adjust the size as needed */
     height: auto; /* Keep aspect ratio */
     border-radius: 50%;
-    order: 2; /* Align to the right */
 }
 
 #terminal-body {
