@@ -6,7 +6,7 @@ document.getElementById('command-line').addEventListener('keydown', function(eve
 });
 
 const welcomeMessage = `
-    <p class="output">Welcome to My Terminal Portfolio</p>
+    <p class="output">Welcome to k.bonev1993's Kali Linux Terminal Portfolio</p>
     <p class="output">Type 'about' to learn more about me.</p>
     <p class="output">Type 'skills' to list my skills.</p>
     <p class="output">Type 'certificates' to view my certificates.</p>
@@ -84,10 +84,18 @@ function handleCommand(command) {
             commandOutput.innerHTML = `
                 <p><span class="highlight">Contact Information:</span></p>
                 <p>Email: k.bonev1993@example.com</p>
-                <p>LinkedIn: linkedin.com/in/kbonev1993</p>
-                <p>GitHub: github.com/kbonev1993</p>
+                <p align="left">
+                    <a href="https://www.linkedin.com/in/kristiyan-bonev-53b374231/" target="_blank">
+                        <img align="center" src="https://skillicons.dev/icons?i=linkedin" alt="Kristiyan Bonev LinkedIn"/>
+                    </a>
+                    <a href="https://github.com/kbonev1993" target="_blank">
+                        <img align="center" src="https://skillicons.dev/icons?i=github" alt="Kristiyan Bonev GitHub"/>
+                    </a>
+                </p>
             `;
             break;
+        // ... other cases ...
+
         default:
             commandOutput.textContent = 'Invalid input!';
     }
