@@ -1,53 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Portfolio</title>
 </head>
 <body>
-    <div class="terminal">
-        <div class="terminal-header">
-            <span class="red"></span>
-            <span class="yellow"></span>
-            <span class="green"></span>
-        </div>
-        <div class="terminal-content">
-            <pre id="console">
-$ Welcome to My Portfolio
-
-$ ls
-<a href="#section1">About</a>  <a href="#section2">Projects</a>  <a href="#section3">Contact</a>
-
-$ cat about.txt
-Hi, I'm [Your Name]. I'm a web developer.
-
-$ cat projects.txt
-Here are some of my projects:
-- Project 1: [Description]
-- Project 2: [Description]
-
-$ cat contact.txt
-You can reach me at [Your Email].
-
-$ exit
-            </pre>
+    <div id="app">
+        <div class="container">
+            <div class="menu">
+                <div class="button red"></div>
+                <div class="button yellow"></div>
+                <div class="button green"></div>
+                <div class="title">
+                    <h1>Your Portfolio</h1>
+                </div>
+            </div>
+            <div class="content">
+                <!-- Your content here -->
+            </div>
         </div>
     </div>
-
-    <div id="section1" class="content">
-        <h2>About Me</h2>
-        <p>Write your about me content here.</p>
-    </div>
-
-    <div id="section2" class="content">
-        <h2>Projects</h2>
-        <p>List your projects and descriptions here.</p>
-    </div>
-
-    <div id="section3" class="content">
-        <h2>Contact</h2>
-        <p>Provide your contact information here.</p>
-    </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
