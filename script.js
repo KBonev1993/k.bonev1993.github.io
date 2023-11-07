@@ -6,17 +6,18 @@ document.getElementById('command-line').addEventListener('keydown', function(eve
 });
 
 const welcomeMessage = `
-    <p>Welcome to k.bonev1993's Kali Linux Terminal Portfolio</p>
-    <p>Type 'about' to learn more about me.</p>
-    <p>Type 'certificates' to view my certificates.</p>
-    <p>Type 'projects' to see my projects.</p>
-    <p>Type 'clear' to clear the terminal.</p>
-    <p>What would you like to do?</p>
+    <p class="output">Welcome to k.bonev1993's Kali Linux Terminal Portfolio</p>
+    <p class="output">Type 'about' to learn more about me.</p>
+    <p class="output">Type 'certificates' to view my certificates.</p>
+    <p class="output">Type 'projects' to see my projects.</p>
+    <p class="output">Type 'clear' to clear the terminal.</p>
+    <p class="output">What would you like to do?</p>
 `;
 
 function handleCommand(command) {
     var terminalBody = document.getElementById('terminal-body');
     var commandOutput = document.createElement('div');
+    commandOutput.classList.add('output');
 
     if (command.toLowerCase() === 'clear') {
         terminalBody.innerHTML = welcomeMessage;
@@ -24,8 +25,7 @@ function handleCommand(command) {
     }
 
     var userCommand = document.createElement('div');
-    userCommand.textContent = 'k.bonev1993@kali: ~$ ' + command;
-    userCommand.style.color = '#FF0000'; // Red text for commands
+    userCommand.innerHTML = `<span class="prompt">k.bonev1993@kali: ~$</span> <span class="command">${command}</span>`;
     terminalBody.appendChild(userCommand);
 
     switch(command.toLowerCase()) {
@@ -40,7 +40,6 @@ function handleCommand(command) {
             break;
         default:
             commandOutput.textContent = 'Invalid input!';
-            commandOutput.style.color = '#FF0000'; // Red text for invalid input
     }
 
     terminalBody.appendChild(commandOutput);
