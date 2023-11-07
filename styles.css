@@ -143,7 +143,7 @@ body, html {
 }
 
 .skills-icons img {
-    width: 1124px; /* This will set the skills icons to be the same width as the contact icons */
+    width: 800px; /* This will set the skills icons to be the same width as the contact icons */
     height: auto; /* Height will scale automatically */
     cursor: pointer; /* Changes the cursor to indicate the icon is clickable */
 }
