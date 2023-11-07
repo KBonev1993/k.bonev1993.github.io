@@ -1,50 +1,32 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: 'Courier New', monospace;
-    background-color: #000;
+    font-family: 'Monospace', monospace;
+    background: url('images/kali-background-placeholder.jpg');
+    background-size: cover;
+    color: #fff;
 }
 
 #window {
     width: 80%;
     margin: 2em auto;
-    border-radius: 5px;
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 1px solid #4CAF50;
     color: #fff;
+    box-shadow: 0 0 10px #4CAF50;
 }
 
 #window-header {
-    background-color: #0277BD; /* Parrot OS blue */
+    background-color: #000;
+    color: #4CAF50;
     padding: 0.5em;
     display: flex;
     align-items: center;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    font-weight: bold;
 }
 
 #window-controls {
-    margin-right: 10px;
-}
-
-.window-control {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    margin-right: 5px;
-    border: none;
-    outline: none;
-}
-
-.window-control.close {
-    background-color: #EF5350; /* Red */
-}
-
-.window-control.minimize {
-    background-color: #FFEB3B; /* Yellow */
-}
-
-.window-control.maximize {
-    background-color: #66BB6A; /* Green */
+    display: none; /* Hide window controls for a more authentic terminal look */
 }
 
 #terminal {
@@ -62,7 +44,15 @@ body, html {
 #command-line {
     width: 100%;
     background-color: #000;
-    color: #fff;
+    color: #4CAF50;
     border: none;
     padding: 0.5em;
+}
+
+#about-me img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1em;
 }
