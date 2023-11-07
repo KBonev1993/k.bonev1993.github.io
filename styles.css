@@ -12,7 +12,7 @@ body, html {
     height: 80%;
     margin: 2em auto;
     background-color: rgba(0, 0, 0, 0.75);
-    border: 1px solid #4CAF50;
+    border: 1px solid #FF0000;
     color: #fff;
     box-shadow: 0 0 10px #4CAF50;
     display: flex;
@@ -21,7 +21,7 @@ body, html {
 
 #window-header {
     background-color: #000;
-    color: #4CAF50;
+    color: #FF0000;
     padding: 0.5em;
     display: flex;
     align-items: center;
