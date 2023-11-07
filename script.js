@@ -6,7 +6,6 @@ document.getElementById('command-line').addEventListener('keydown', function(eve
 });
 
 const welcomeMessage = `
-    <img src="images/me.png" alt="Me" id="profile-picture">
     <p>Welcome to k.bonev1993's Kali Linux Terminal Portfolio</p>
     <p>Type 'about' to learn more about me.</p>
     <p>Type 'certificates' to view my certificates.</p>
