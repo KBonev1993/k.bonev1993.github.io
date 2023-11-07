@@ -81,7 +81,7 @@ function handleCommand(command) {
         case 'contact':
     commandOutput.innerHTML = `
         <p><span class="highlight">Contact Information:</span></p>
-        <p>Email: k.bonev1993@example.com</p>
+        <p>Email: k.bonev1993@gmail.com</p>
         <div class="social-icons">
             <a href="https://www.linkedin.com/in/kristiyan-bonev-53b374231/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
             <a href="https://github.com/kbonev1993" target="_blank"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a>
