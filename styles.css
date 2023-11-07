@@ -12,16 +12,16 @@ body, html {
     height: 80%;
     margin: 2em auto;
     background-color: rgba(0, 0, 0, 0.75);
-    border: 1px solid #FF0000; /* Red border */
+    border: 1px solid #FF0000;
     color: #fff;
-    box-shadow: 0 0 10px #FF0000; /* Red glow */
+    box-shadow: 0 0 10px #FF0000;
     display: flex;
     flex-direction: column;
 }
 
 #window-header {
     background-color: #000;
-    color: #FF0000; /* Red text */
+    color: #FF0000;
     padding: 0.5em;
     display: flex;
     align-items: center;
@@ -61,36 +61,32 @@ body, html {
     flex-direction: column;
 }
 
-
 #terminal-header {
-    position: relative; /* Set the terminal header to a relative position */
+    position: relative;
     padding: 1em;
 }
 
 #text-container {
-    /* No changes needed here, keep your text-container styles as they are */
+    flex-grow: 1;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 #profile-picture {
-    position: absolute; /* Position the image absolutely within the terminal header */
-    top: 1em; /* Align the top of the image to the top of the terminal header */
-    right: 1em; /* Align the right of the image to the right of the terminal header */
-    width: 200px; /* Adjust the size as needed */
-    height: auto; /* Keep aspect ratio */
-    border-radius: 50%;
-}
-
-
-#profile-picture {
-    width: 200px; /* Adjust the size as needed */
-    height: auto; /* Keep aspect ratio */
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    width: 200px;
+    height: auto;
     border-radius: 50%;
 }
 
 #terminal-body {
     flex-grow: 1;
     overflow-y: auto;
-    padding-bottom: 2em; /* Make space for the input bar */
+    padding-bottom: 2em;
     text-align: left;
 }
 
@@ -100,12 +96,24 @@ body, html {
 }
 
 #command-line {
-    width: calc(100% - 2em); /* Adjust width to account for padding */
+    width: calc(100% - 2em);
     background-color: transparent;
-    color: #FF0000; /* Red text */
+    color: #FFFFFF;
     border: none;
     padding: 0.5em 1em;
     font-family: 'Monospace', monospace;
     font-size: 1em;
     outline: none;
+}
+
+.prompt {
+    color: #FF0000;
+}
+
+.command {
+    color: #FFFFFF;
+}
+
+.output {
+    color: #FFFFFF;
 }
