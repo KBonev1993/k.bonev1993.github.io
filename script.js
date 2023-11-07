@@ -93,7 +93,10 @@ function handleCommand(command) {
             `;
             break;
 
-        // ... other cases ...
+        default:
+            commandOutput.innerHTML = 'Invalid Command!';
+            break;
+    }
     }
 
     terminalBody.appendChild(commandOutput);
