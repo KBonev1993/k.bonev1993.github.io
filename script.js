@@ -84,20 +84,15 @@ function handleCommand(command) {
             commandOutput.innerHTML = `
                 <p><span class="highlight">Contact Information:</span></p>
                 <p>Email: k.bonev1993@example.com</p>
-                <p align="left">
-                    <a href="https://www.linkedin.com/in/kristiyan-bonev-53b374231/" target="_blank">
-                        <img align="center" src="https://skillicons.dev/icons?i=linkedin" alt="Kristiyan Bonev LinkedIn"/>
-                    </a>
-                    <a href="https://github.com/kbonev1993" target="_blank">
-                        <img align="center" src="https://skillicons.dev/icons?i=github" alt="Kristiyan Bonev GitHub"/>
-                    </a>
-                </p>
+                <div>
+                    <a href="https://www.linkedin.com/in/kristiyan-bonev-53b374231/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
+                    <a href="https://twitter.com/TheCoinHustlers" target="_blank"><img src="https://skillicons.dev/icons?i=twitter" alt="Twitter" /></a>
+                    <a href="https://discord.gg/USQV5F2sY9" target="_blank"><img src="https://skillicons.dev/icons?i=discord" alt="Discord" /></a>
+                </div>
             `;
             break;
-        // ... other cases ...
 
-        default:
-            commandOutput.textContent = 'Invalid input!';
+        // ... other cases ...
     }
 
     terminalBody.appendChild(commandOutput);
