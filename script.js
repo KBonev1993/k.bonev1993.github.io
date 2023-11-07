@@ -97,7 +97,6 @@ function handleCommand(command) {
             commandOutput.innerHTML = 'Invalid Command!';
             break;
     }
-    }
 
     terminalBody.appendChild(commandOutput);
     terminalBody.scrollTop = terminalBody.scrollHeight; // Scroll to the bottom
