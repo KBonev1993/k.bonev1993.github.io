@@ -33,4 +33,10 @@ function handleCommand(command) {
 window.onload = function() {
     var terminalBody = document.getElementById('terminal-body');
     terminalBody.innerHTML = `
-        <
+        <p>Welcome to k.bonev1993's Kali Linux Terminal Portfolio</p>
+        <p>Type 'about' to learn more about me.</p>
+        <p>Type 'certificates' to view my certificates.</p>
+        <p>Type 'projects' to see my projects.</p>
+        <p>What would you like to do?</p>
+    `;
+};
