@@ -134,3 +134,16 @@ body, html {
     height: auto;
     vertical-align: middle; /* Aligns the image vertically with the text if any */
 }
+
+.skills-icons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px; /* Adjust the gap between icons as needed */
+}
+
+.skills-icons img {
+    height: 24px; /* Sets a fixed height for all icons */
+    width: auto; /* Ensures the width is automatically adjusted to maintain aspect ratio */
+    cursor: pointer; /* Changes the cursor to indicate the icon is clickable */
+}
