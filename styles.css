@@ -68,18 +68,29 @@ body, html {
 #terminal-footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
     padding: 0.5em;
+    box-sizing: border-box; /* Include padding in the width calculation */
     background-color: rgba(0, 0, 0, 0.85);
 }
 
 #command-line {
-    width: 100%;
+    width: calc(100% - 2em); /* Adjust width to account for padding */
     background-color: transparent;
     color: #4CAF50;
     border: none;
-    padding: 0.5em;
+    padding: 0.5em 1em; /* Same horizontal padding as #terminal to align text */
     font-family: 'Monospace', monospace;
     font-size: 1em;
-    outline: none;
+    outline: none; /* Remove focus outline */
+}
+
+/* Additional styles for content */
+#about-me img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1em;
 }
