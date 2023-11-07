@@ -27,7 +27,7 @@ function handleCommand(command) {
     }
 
     var userCommand = document.createElement('div');
-    userCommand.innerHTML = `<span class="prompt">k.bonev1993@kali: ~$</span> <span class="command">${command}</span>`;
+    userCommand.innerHTML = `<span class="prompt">k.bonev1993@kali: </span> <span class="command">${command}</span>`;
     terminalBody.appendChild(userCommand);
 
     switch(command.toLowerCase()) {
