@@ -5,9 +5,23 @@ document.getElementById('command-line').addEventListener('keydown', function(eve
     }
 });
 
+const welcomeMessage = `
+    <p>Welcome to k.bonev1993's Kali Linux Terminal Portfolio</p>
+    <p>Type 'about' to learn more about me.</p>
+    <p>Type 'certificates' to view my certificates.</p>
+    <p>Type 'projects' to see my projects.</p>
+    <p>Type 'clear' to clear the terminal.</p>
+    <p>What would you like to do?</p>
+`;
+
 function handleCommand(command) {
     var terminalBody = document.getElementById('terminal-body');
     var commandOutput = document.createElement('div');
+
+    if (command.toLowerCase() === 'clear') {
+        terminalBody.innerHTML = welcomeMessage;
+        return;
+    }
 
     var userCommand = document.createElement('div');
     userCommand.textContent = 'k.bonev1993@kali: ~$ ' + command;
@@ -34,12 +48,5 @@ function handleCommand(command) {
 
 window.onload = function() {
     var terminalBody = document.getElementById('terminal-body');
-    terminalBody.innerHTML = `
-        <p>Welcome to k.bonev1993's Kali Linux Terminal Portfolio</p>
-        <p>Type 'about' to learn more about me.</p>
-        <p>Type 'certificates' to view my certificates.</p>
-        <p>Type 'projects' to see my projects.</p>
-        <p>Type 'clear' to clear the terminal.</p>
-        <p>What would you like to do?</p>
-    `;
+    terminalBody.innerHTML = welcomeMessage;
 };
