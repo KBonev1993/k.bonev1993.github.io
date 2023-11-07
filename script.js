@@ -6,17 +6,31 @@ document.getElementById('command-line').addEventListener('keydown', function(eve
 });
 
 function handleCommand(command) {
-    // You can define commands here and display the corresponding content
     var terminalBody = document.getElementById('terminal-body');
+    var aboutMe = document.getElementById('about-me');
+    var myCertificates = document.getElementById('my-certificates');
+    var myProjects = document.getElementById('my-projects');
+
+    aboutMe.style.display = 'none';
+    myCertificates.style.display = 'none';
+    myProjects.style.display = 'none';
+
     switch(command) {
         case 'about':
-            terminalBody.innerHTML = '<p>This is about me...</p>';
+            aboutMe.style.display = 'block';
+            break;
+        case 'certificates':
+            myCertificates.style.display = 'block';
             break;
         case 'projects':
-            terminalBody.innerHTML = '<p>These are my projects...</p>';
+            myProjects.style.display = 'block';
             break;
-        // Add more cases for other commands
         default:
             terminalBody.innerHTML = '<p>Command not found</p>';
     }
 }
+
+window.onload = function() {
+    var terminalBody = document.getElementById('terminal-body');
+    terminalBody.innerHTML = `
+        <
