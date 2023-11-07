@@ -6,7 +6,7 @@ document.getElementById('command-line').addEventListener('keydown', function(eve
 });
 
 const welcomeMessage = `
-    <p class="output">Welcome to Terminal Portfolio</p>
+    <p class="output">Welcome to My Terminal Portfolio</p>
     <p class="output">Type 'about' to learn more about me.</p>
     <p class="output">Type 'certificates' to view my certificates.</p>
     <p class="output">Type 'projects' to see my projects.</p>
