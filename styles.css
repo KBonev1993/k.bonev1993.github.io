@@ -57,13 +57,18 @@ body, html {
     padding: 1em;
     flex-grow: 1;
     overflow-y: auto;
+    position: relative;
 }
 
 #terminal-body {
     min-height: 300px;
+    padding-bottom: 50px; /* Make space for the input bar */
 }
 
 #terminal-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     padding: 0.5em;
     background-color: rgba(0, 0, 0, 0.85);
 }
@@ -76,12 +81,4 @@ body, html {
     padding: 0.5em;
     font-family: 'Monospace', monospace;
     font-size: 1em;
-}
-
-#about-me img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto 1em;
 }
