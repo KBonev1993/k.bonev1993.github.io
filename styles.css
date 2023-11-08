@@ -147,3 +147,23 @@ body, html {
     height: auto; /* Height will scale automatically */
     cursor: pointer; /* Changes the cursor to indicate the icon is clickable */
 }
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #333;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: #333; /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #888; /* color of the scroll thumb */
+  border-radius: 6px; /* roundness of the scroll thumb */
+  border: 3px solid #333; /* creates padding around scroll thumb */
+}
