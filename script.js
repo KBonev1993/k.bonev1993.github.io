@@ -54,7 +54,7 @@ function handleCommand(command) {
                 Acquired the proficiency needed for cybersecurity analyst and Security Operations Center (SOC) roles, poised to make impactful contributions in today's dynamic digital security environment.</p>
                 <p><span class="highlight">Software Engineer [Apr 2021 – Sep 2022]</span><br>
                 SoftUni</p>
-                <p>Developed software solutions using Python, contributing to the successful completion of projects.<br>
+                <p>Developed software solutions using Python,JavaScript,HTML & CSS contributing to the successful completion of projects.<br>
                 Collaborated with a diverse team to design, implement, and maintain software applications.</p>
                 <p><span class="highlight">Bachelor of Finance [Sep 2012 – May 2016]</span><br>
                 Dimitar A. Tsenov Academy of Economics</p>
