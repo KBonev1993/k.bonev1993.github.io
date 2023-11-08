@@ -37,8 +37,8 @@ function handleCommand(command) {
                 <p>I'm a dynamic professional with a strong background in software support, cybersecurity, penetration testing, and finance.<br>
                 My career journey has equipped me with a versatile skill set,<br>
                 enabling me to bridge the gap between technical intricacies and practical solutions.</p>
-                <p>With experience in software support, I swiftly resolve issues while effectively communicating complex technical concepts to clients. In cybersecurity,<br>
-                I identify vulnerabilities and collaborate with experts to enhance security protocols.<br> 
+                <p>With experience in software support, I swiftly resolve issues while effectively communicating complex technical concepts to clients.<br>
+                In cybersecurity,I identify vulnerabilities and collaborate with experts to enhance security protocols.<br> 
                 My finance background adds a strong analytical perspective to my problem-solving approach.</p>
                 <p>Adaptable and eager to learn, I'm driven to contribute to innovative projects that leverage my diverse expertise.</p>
                 <p><span class="highlight">CURRENT POSITION</span><br>
