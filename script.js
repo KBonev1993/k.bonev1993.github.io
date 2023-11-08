@@ -38,28 +38,29 @@ function handleCommand(command) {
                 <p>With experience in software support, I swiftly resolve issues while effectively communicating complex technical concepts to clients. In cybersecurity, I identify vulnerabilities and collaborate with experts to enhance security protocols. My finance background adds a strong analytical perspective to my problem-solving approach.</p>
                 <p>Adaptable and eager to learn, I'm driven to contribute to innovative projects that leverage my diverse expertise.</p>
                 <p><span class="highlight">CURRENT POSITION</span><br>
-                SW/APP/Cloud Tech Support Analyst [Nov 2022 – Current]<br>
+                <span class="highlight">SW/APP/Cloud Tech Support Analyst [Nov 2022 – Current]</span><br>
                 Accenture</p>
                 <p>Provide technical support for software, applications, and cloud services, resolving issues promptly.<br>
                 Collaborate with customers to troubleshoot and diagnose technical problems, ensuring client satisfaction.<br>
                 Communicate complex technical concepts in a clear and understandable manner.</p>
                 <p><span class="highlight">EDUCATION AND TRAINING</span><br>
-                Jr. Penetration Tester [Sep 2023]<br>
+                <span class="highlight">Jr. Penetration Tester [Sep 2023]</span><br>
                 TryHackMe</p>
                 <p>Participate in penetration testing exercises, identifying vulnerabilities and suggesting remediation strategies.<br>
                 Collaborate with senior penetration testers to enhance security protocols and conduct risk assessments.</p>
-                <p>Google Cybersecurity Professional Certificate [Aug 2023]<br>
+                <p><span class="highlight">Google Cybersecurity Professional Certificate [Aug 2023]</span><br>
                 Coursera</p>
                 <p>Successfully completed an intensive cybersecurity program, mastering skills in Python programming, intrusion detection, and SIEM tools.<br>
                 Acquired the proficiency needed for cybersecurity analyst and Security Operations Center (SOC) roles, poised to make impactful contributions in today's dynamic digital security environment.</p>
-                <p>Software Engineer [Apr 2021 – Sep 2022]<br>
+                <p><span class="highlight">Software Engineer [Apr 2021 – Sep 2022]</span><br>
                 SoftUni</p>
                 <p>Developed software solutions using Python, contributing to the successful completion of projects.<br>
                 Collaborated with a diverse team to design, implement, and maintain software applications.</p>
-                <p>Bachelor of Finance [Sep 2012 – May 2016]<br>
+                <p><span class="highlight">Bachelor of Finance [Sep 2012 – May 2016]</span><br>
                 Dimitar A. Tsenov Academy of Economics</p>
                 <p>Relevant Courses: Financial Management, Investment Analysis, Accounting Principles.<br>
                 Developed strong analytical and problem-solving skills in a finance-focused curriculum.</p>
+
             `;
             break;
         case 'skills':
