@@ -34,11 +34,11 @@ function handleCommand(command) {
         case 'about':
             commandOutput.innerHTML = `
                 <p>Hello World, my name is Kristiyan Bonev.</p>
-                <p>I'm a dynamic professional with a strong background in software support, cybersecurity, penetration testing, and finance. 
-                My career journey has equipped me with a versatile skill set, 
+                <p>I'm a dynamic professional with a strong background in software support, cybersecurity, penetration testing, and finance.<br>
+                My career journey has equipped me with a versatile skill set,<br>
                 enabling me to bridge the gap between technical intricacies and practical solutions.</p>
-                <p>With experience in software support, I swiftly resolve issues while effectively communicating complex technical concepts to clients. In cybersecurity, 
-                I identify vulnerabilities and collaborate with experts to enhance security protocols. 
+                <p>With experience in software support, I swiftly resolve issues while effectively communicating complex technical concepts to clients. In cybersecurity,<br>
+                I identify vulnerabilities and collaborate with experts to enhance security protocols.<br> 
                 My finance background adds a strong analytical perspective to my problem-solving approach.</p>
                 <p>Adaptable and eager to learn, I'm driven to contribute to innovative projects that leverage my diverse expertise.</p>
                 <p><span class="highlight">CURRENT POSITION</span><br>
@@ -55,7 +55,7 @@ function handleCommand(command) {
                 <p><span class="highlight">Google Cybersecurity Professional Certificate [Aug 2023]</span><br>
                 Coursera</p>
                 <p>Successfully completed an intensive cybersecurity program, mastering skills in Python programming, intrusion detection, and SIEM tools.<br>
-                Acquired the proficiency needed for cybersecurity analyst and Security Operations Center (SOC) roles, 
+                Acquired the proficiency needed for cybersecurity analyst and Security Operations Center (SOC) roles,<br> 
                 poised to make impactful contributions in today's dynamic digital security environment.</p>
                 <p><span class="highlight">Software Engineer [Apr 2021 – Sep 2022]</span><br>
                 SoftUni</p>
