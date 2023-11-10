@@ -89,10 +89,8 @@ function handleCommand(command) {
                 </ul>
             `;
             break;
-}
-
         case 'contact':
-    commandOutput.innerHTML = `
+            commandOutput.innerHTML = `
         <p><span class="highlight">Contact Information:</span></p>
         <p>Email: k.bonev1993@gmail.com</p>
         <div class="social-icons">
@@ -102,8 +100,7 @@ function handleCommand(command) {
             <a href="https://discord.gg/USQV5F2sY9" target="_blank"><img src="https://skillicons.dev/icons?i=discord" alt="Discord" /></a>
         </div>
     `;
-    break;
-
+            break;
         default:
             commandOutput.innerHTML = 'Invalid Command!';
             break;
