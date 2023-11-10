@@ -172,3 +172,11 @@ body, html {
 *, *:before, *:after {
     box-sizing: border-box;
 }
+.project-link {
+    color: red;
+    text-decoration: none; /* Optional: removes the underline */
+}
+
+.project-link:hover {
+    color: darkred; /* Optional: changes color on hover for a nice effect */
+}
