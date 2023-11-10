@@ -85,13 +85,13 @@ function handleCommand(command) {
             commandOutput.innerHTML = `
                 <p>Here are some of my projects:</p>
                 <ul>
-                    <li><a href="https://github.com/KBonev1993/Information-Security-FreeCodeCamp-/tree/main/Stock%20Price%20Checker" target="_blank" class="project-link">Stock-Price-Checker</a></li>
+                    <li><a href="https://github.com/KBonev1993/Information-Security-FreeCodeCamp-/tree/main/Stock%20Price%20Checker" target="_blank" class="project-link">Stock Price Checker</a></li>
                 </ul>
                 <ul>
-                    <li><a href="https://github.com/KBonev1993/BTC-Whale-Tracker-AHAB" target="_blank" class="project-link">BTC-Whale-Tracker-AHAB</a></li>
+                    <li><a href="https://github.com/KBonev1993/BTC-Whale-Tracker-AHAB" target="_blank" class="project-link">BitCoin Whale Tracker</a></li>
                 </ul>
                 <ul>
-                    <li><a href="https://github.com/KBonev1993/Spotify-Song-Scrapper" target="_blank" class="project-link">Spotify-Song-Scrapper</a></li>
+                    <li><a href="https://github.com/KBonev1993/Spotify-Song-Scrapper" target="_blank" class="project-link">Spotify Song Scrapper</a></li>
                 </ul>
             `;
             break;
