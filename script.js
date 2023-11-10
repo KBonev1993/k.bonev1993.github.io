@@ -81,9 +81,14 @@ function handleCommand(command) {
         case 'certificates':
             // ... Your 'certificates' case code ...
             break;
-        case 'projects':
-            // ... Your 'projects' case code ...
-            break;
+          case 'projects':
+        commandOutput.innerHTML = `
+            <p>Here are some of my projects:</p>
+            <ul>
+                <li><a href="https://github.com/KBonev1993/Information-Security-FreeCodeCamp-/tree/main/Stock%20Price%20Checker" target="_blank">Stock-Price-Checker</a></li>
+            </ul>
+        `;
+        break;
         case 'contact':
     commandOutput.innerHTML = `
         <p><span class="highlight">Contact Information:</span></p>
