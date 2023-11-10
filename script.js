@@ -12,6 +12,7 @@ const welcomeMessage = `
     <p class="output">Type 'certificates' to view my certificates.</p>
     <p class="output">Type 'projects' to see my projects.</p>
     <p class="output">Type 'contact' to get in touch with me.</p>
+	<p class="output">Type 'cv' to download my CV.</p>
     <p class="output">Type 'clear' to clear the terminal.</p>
     <p class="output">What would you like to do?</p>
 `;
@@ -126,6 +127,11 @@ function handleCommand(command) {
         </div>
     `;
             break;
+		case 'cv':
+			commandOutput.innerHTML = `
+				<p>You can download my CV <a href="https://raw.githubusercontent.com/KBonev1993/kbonev1993.github.io/main/cv/KristiyanBonevCV.pdf" download="KristiyanBonev_CV">here</a>.</p>
+			`;
+			break;
         default:
             commandOutput.innerHTML = 'Invalid Command!';
             break;
