@@ -79,7 +79,26 @@ function handleCommand(command) {
             `;
             break;
         case 'certificates':
-            // ... Your 'certificates' case code ...
+             commandOutput.innerHTML = `
+				<p>My Certificates:</p>
+				<div class="certificates">
+					<a href="images/Google.jpeg" target="_blank">
+						<img src="images/Google.jpeg" alt="Google Certificate" class="certificate-thumbnail" />
+					</a>
+					<a href="images/JS.jpg" target="_blank">
+						<img src="images/JS.jpg" alt="JavaScript Certificate" class="certificate-thumbnail" />
+					</a>
+					<a href="images/PenTest.jpg" target="_blank">
+						<img src="images/PenTest.jpg" alt="Penetration Testing Certificate" class="certificate-thumbnail" />
+					</a>
+					<a href="images/Python.jpg" target="_blank">
+						<img src="images/Python.jpg" alt="Python Certificate" class="certificate-thumbnail" />
+					</a>
+					<a href="images/PythonOOP.jpg" target="_blank">
+						<img src="images/PythonOOP.jpg" alt="Python OOP Certificate" class="certificate-thumbnail" />
+					</a>
+				</div>
+			`;
             break;
         case 'projects':
             commandOutput.innerHTML = `
