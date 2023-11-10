@@ -193,3 +193,11 @@ body, html {
     border: 2px solid #fff; /* Optional */
     cursor: pointer;
 }
+.cv-link {
+    color: red;
+    text-decoration: none; /* Optional: removes the underline */
+}
+
+.cv-link:hover {
+    text-decoration: underline; /* Optional: adds underline on hover */
+}
