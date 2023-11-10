@@ -129,7 +129,7 @@ function handleCommand(command) {
             break;
 		case 'cv':
 			commandOutput.innerHTML = `
-				<p>You can download my CV <a href="https://raw.githubusercontent.com/KBonev1993/kbonev1993.github.io/main/cv/KristiyanBonevCV.pdf" download="KristiyanBonev_CV">here</a>.</p>
+				<p>You can download my CV <a href="https://raw.githubusercontent.com/KBonev1993/kbonev1993.github.io/main/cv/KristiyanBonevCV.pdf" download="KristiyanBonev_CV" class="cv-link">here</a>.</p>
 			`;
 			break;
         default:
