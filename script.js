@@ -113,6 +113,12 @@ function handleCommand(command) {
                 <ul>
                     <li><a href="https://github.com/KBonev1993/Spotify-Song-Scrapper" target="_blank" class="project-link">Spotify Song Scrapper</a></li>
                 </ul>
+		<ul>
+                    <li><a href="https://github.com/KBonev1993/Information-Security-FreeCodeCamp-/tree/main/SHA-1%20Password%20Cracker" target="_blank" class="project-link">SHA-1 Password Cracker</a></li>
+                </ul>
+		<ul>
+                    <li><a href="https://github.com/KBonev1993/Information-Security-FreeCodeCamp-/tree/main/Port%20Scanner" target="_blank" class="project-link">Port Scanner</a></li>
+                </ul>
             `;
             break;
         case 'contact':
