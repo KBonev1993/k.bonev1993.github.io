@@ -212,7 +212,8 @@ body, html {
 
 @media screen and (max-width: 768px) {
     #profile-picture {
-        width: 150px; /* Smaller size for mobile */
+        width: 100px; /* Smaller size for mobile */
+        height: auto; /* This maintains the aspect ratio of the image */
     }
 }
 
