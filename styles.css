@@ -201,3 +201,47 @@ body, html {
 .cv-link:hover {
     text-decoration: underline; /* Optional: adds underline on hover */
 }
+
+@media screen and (max-width: 768px) {
+    #window {
+        width: 95%;
+        height: 90%;
+        margin: 1em auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #profile-picture {
+        width: 150px; /* Smaller size for mobile */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 0.9em; /* Adjust as needed */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .certificates {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .certificate-thumbnail {
+        width: 80px; /* Smaller size for mobile */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #command-line {
+        width: calc(100% - 1em);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills-icons img {
+        width: 300px; /* Adjust as needed for mobile */
+    }
+}
+
