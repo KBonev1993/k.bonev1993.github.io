@@ -246,3 +246,8 @@ body, html {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    #text-container {
+        padding-top: 120px; /* Adjust this value as needed */
+    }
+}
