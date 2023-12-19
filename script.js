@@ -83,6 +83,9 @@ function handleCommand(command) {
              commandOutput.innerHTML = `
 				<p>My Certificates:</p>
 				<div class="certificates">
+    					<a href="images/AWS.jpg" target="_blank">
+						<img src="images/AWS.jpg" alt="AWS Certificate" class="certificate-thumbnail" />
+					</a>
 					<a href="images/PenTest.jpg" target="_blank">
 						<img src="images/PenTest.jpg" alt="Penetration Testing Certificate" class="certificate-thumbnail" />
 					</a>
@@ -98,6 +101,7 @@ function handleCommand(command) {
 					<a href="images/Python.jpg" target="_blank">
 						<img src="images/Python.jpg" alt="Python Certificate" class="certificate-thumbnail" />
 					</a>
+     
 				</div>
 			`;
             break;
