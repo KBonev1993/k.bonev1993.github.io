@@ -12,7 +12,8 @@ const welcomeMessage = `
     <p class="output">Type 'certificates' to view my certificates.</p>
     <p class="output">Type 'projects' to see my projects.</p>
     <p class="output">Type 'contact' to get in touch with me.</p>
-	<p class="output">Type 'cv' to download my CV.</p>
+    <p class="output">Type 'cv' to download my CV.</p>
+    <p class="output">Type 'GIA' to download my General Intelligence Assessment (GIA).</p>
     <p class="output">Type 'clear' to clear the terminal.</p>
     <p class="output">What would you like to do?</p>
 `;
@@ -147,6 +148,11 @@ function handleCommand(command) {
 		case 'cv':
 			commandOutput.innerHTML = `
 				<p>You can download my CV <a href="https://raw.githubusercontent.com/KBonev1993/kbonev1993.github.io/main/cv/KristiyanBonevCV.pdf" download="KristiyanBonev_CV" class="cv-link">here</a>.</p>
+			`;
+			break;
+	case 'cv':
+			commandOutput.innerHTML = `
+				<p>You can download my GIA <a href="https://raw.githubusercontent.com/KBonev1993/kbonev1993.github.io/main/cv/KristiyanBonevGIA.pdf" download="KristiyanBonev_GIA" class="cv-link">here</a>.</p>
 			`;
 			break;
         default:
