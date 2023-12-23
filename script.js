@@ -50,8 +50,8 @@ function handleCommand(command) {
                 Collaborate with clients to diagnose and troubleshoot technical problems, ensuring high levels of customer satisfaction.<br>
                 Translate complex technical information into clear, understandable terms for non-technical stakeholders.</p>
                 <p><span class="highlight">EDUCATION AND TRAINING</span><br>
-		 <span class="highlight">AWS Certified Cloud Practitioner</span><br>
-                Amazon Web Services (AWS) [Dec 2023]</p>
+		 <span class="highlight">AWS Certified Cloud Practitioner  [Dec 2023]</span><br>
+                Amazon Web Services (AWS)</p>
                 <p>Gained comprehensive understanding of essential cloud computing concepts including scalability, elasticity, and fault tolerance.<br>
                 Developed proficiency in AWS core services such as EC2, S3, RDS, and Lambda.<br>
 		Acquired knowledge of AWS security fundamentals and key security services.<br>
