@@ -150,7 +150,7 @@ function handleCommand(command) {
 				<p>You can download my CV <a href="https://raw.githubusercontent.com/KBonev1993/kbonev1993.github.io/main/cv/KristiyanBonevCV.pdf" download="KristiyanBonev_CV" class="cv-link">here</a>.</p>
 			`;
 			break;
-	case 'cv':
+	case 'gia':
 			commandOutput.innerHTML = `
 				<p>You can download my GIA <a href="https://raw.githubusercontent.com/KBonev1993/kbonev1993.github.io/main/cv/KristiyanBonevGIA.pdf" download="KristiyanBonev_GIA" class="cv-link">here</a>.</p>
 			`;
