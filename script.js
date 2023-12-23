@@ -81,7 +81,7 @@ function handleCommand(command) {
                 <p><span class="highlight">Languages and Tools:</span></p>
                 <div class="skills-icons">
                     <a href="https://skillicons.dev" target="_blank">
-                        <img src="https://skillicons.dev/icons?i=python,js,vscode,html,css,bash,terraform,linux,mysql,mongodb,aws,azure,postman,raspberrypi,jenkins" alt="Languages and Tools" />
+                        <img src="https://skillicons.dev/icons?i=python,js,vscode,html,css,bash,linux,mysql,mongodb,aws,azure,postman,raspberrypi,jenkins" alt="Languages and Tools" />
                     </a>
                 </div>
             `;
