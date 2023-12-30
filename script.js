@@ -37,7 +37,7 @@ function handleCommand(command) {
             commandOutput.innerHTML = `
                 <p>Hello World, my name is Kristiyan Bonev.</p>
     		<p>As a dynamic professional with a rich blend of experiences in software support, cybersecurity, penetration testing, and software engineering,<br>
-		I bring a unique perspective shaped by my background in finance. My journey has been about more than just solving technical problems;<br>
+		I bring a unique perspective shaped by my background. My journey has been about more than just solving technical problems;<br>
 		it's about understanding the deeper challenges and finding creative solutions.<br>
 		I thrive on diving into complex issues, uncovering security vulnerabilities, and applying a mix of analytical and intuitive thinking to find effective solutions.<br>
 		I excel at breaking down technical concepts into language that everyone can understand and working collaboratively with teams from diverse backgrounds.<br>
