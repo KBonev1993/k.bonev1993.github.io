@@ -91,6 +91,9 @@ function handleCommand(command) {
              commandOutput.innerHTML = `
 				<p>My Certificates:</p>
 				<div class="certificates">
+    					<a href="images/DevSecOps.jpg" target="_blank">
+						<img src="images/DevSecOps.jpg" alt="DevSecOps Certificate" class="certificate-thumbnail" />
+					</a>
     					<a href="images/AWS.jpg" target="_blank">
 						<img src="images/AWS.jpg" alt="AWS Certificate" class="certificate-thumbnail" />
 					</a>
