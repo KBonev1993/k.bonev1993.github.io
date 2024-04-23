@@ -87,7 +87,7 @@ function handleCommand(command) {
 		<span class="highlight">Software Testing & Algorithms:</span> Knowledgeable in unit testing, iterators, generators, decorators, and basic algorithms.<br>
 		<span class="highlight">Data Structures:</span> Proficient in both linear and two-dimensional data structures.<br>
 		<span class="highlight">Web Development:</span> Capable of handling data streams, files, directories, HTTP, and developing simple single-page applications.<br>
-		<span class="highlight">Database Management:</span> Experienced with MySQL and MongoDB for efficient data management.<br>
+		<span class="highlight">Database Management:</span> Experienced with MS SQL, MySQL and MongoDB for efficient data management.<br>
 		<span class="highlight">Cloud Platforms:</span> Skilled in deploying and managing applications on AWS and Azure.<br>
 		<span class="highlight">Development Tools:</span> Proficient with Visual Studio Code (VSCode) and Jenkins for development and continuous integration.<br>
 		<span class="highlight">Operating Systems:</span> Experienced in Linux system administration.<br>
