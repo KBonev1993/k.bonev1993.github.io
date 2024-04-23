@@ -35,45 +35,69 @@ function handleCommand(command) {
     switch(command.toLowerCase()) {
         case 'about':
             commandOutput.innerHTML = `
-                <p>Hello World, my name is Kristiyan Bonev.</p>
-    		<p>As a dynamic professional with a rich blend of experiences in software support, cybersecurity, penetration testing, and software engineering,<br>
-		I bring a unique perspective shaped by my background. My journey has been about more than just solving technical problems;<br>
-		it's about understanding the deeper challenges and finding creative solutions.<br>
-		I thrive on diving into complex issues, uncovering security vulnerabilities, and applying a mix of analytical and intuitive thinking to find effective solutions.<br>
-		I excel at breaking down technical concepts into language that everyone can understand and working collaboratively with teams from diverse backgrounds.<br>
-		Driven by a passion for innovation and a desire to continuously learn and grow,<br>
-		I'm excited about contributing to projects that push boundaries and make a real difference.</p>
-  
-                <p><span class="highlight">CURRENT POSITION</span><br>
-                <span class="highlight">SW/APP/Cloud Tech Support Analyst [Nov 2022 – Current]</span><br>
-                Accenture</p>
-                <p>Provide comprehensive technical support for various software, applications, and cloud services.<br>
-                Collaborate with clients to diagnose and troubleshoot technical problems, ensuring high levels of customer satisfaction.<br>
-                Translate complex technical information into clear, understandable terms for non-technical stakeholders.</p>
-                <p><span class="highlight">EDUCATION AND TRAINING</span><br>
-		 <span class="highlight">AWS Certified Cloud Practitioner  [Dec 2023]</span><br>
-                Amazon Web Services (AWS)</p>
-                <p>Gained comprehensive understanding of essential cloud computing concepts including scalability, elasticity, and fault tolerance.<br>
-                Developed proficiency in AWS core services such as EC2, S3, RDS, and Lambda.<br>
-		Acquired knowledge of AWS security fundamentals and key security services.<br>
-  		Learned about AWS pricing structures and billing practices.</p>
-                <span class="highlight">Jr. Penetration Tester [Sep 2023]</span><br>
-                TryHackMe</p>
-                <p>Engaged in hands-on penetration testing exercises, identifying system vulnerabilities and proposing remediation strategies.<br>
-                Collaborate with senior penetration testers to enhance security protocols and conduct risk assessments.</p>
-                <p><span class="highlight">Google Cybersecurity Professional Certificate [Aug 2023]</span><br>
-                Coursera</p>
-                <p>Successfully completed an intensive cybersecurity program, mastering skills in Python programming, intrusion detection, and SIEM tools.<br>
-                Acquired the proficiency needed for cybersecurity analyst and Security Operations Center (SOC) roles,<br> 
-                poised to make impactful contributions in today's dynamic digital security environment.</p>
-                <p><span class="highlight">Software Engineer [Apr 2021 – Sep 2022]</span><br>
-                SoftUni</p>
-                <p>Developed software solutions using Python,JavaScript,HTML & CSS contributing to the successful completion of projects.<br>
-                Collaborated with a diverse team to design, implement, and maintain software applications.</p>
-                <p><span class="highlight">Bachelor of Finance [Sep 2012 – May 2016]</span><br>
-                Dimitar A. Tsenov Academy of Economics</p>
-                <p>Relevant Courses: Financial Management, Investment Analysis, Accounting Principles.<br>
-                Developed strong analytical and problem-solving skills in a finance-focused curriculum.</p>
+                <p>Hello World, I'm Kristiyan Bonev 👋</p>
+		<p>Welcome to my profile! I am a dynamic professional with a rich blend of experiences in software support, cybersecurity, penetration testing, and software engineering.<br> 
+  		My journey has equipped me with a unique perspective, enabling me to tackle complex challenges across various domains.</p>
+		
+		<p><span class="highlight">CURRENT POSITION</span><br>
+		<span class="highlight">SW/APP/Cloud Tech Support Analyst [Nov 2022 – Current]</span><br>
+		Accenture</p>
+		<p>Provide comprehensive technical support for various software, applications, and cloud services.<br>
+		Collaborate with clients to diagnose and troubleshoot technical problems, ensuring high levels of customer satisfaction.<br>
+		Translate complex technical information into clear, understandable terms for non-technical stakeholders.</p>
+		
+		<p><span class="highlight">EDUCATION AND TRAINING</span><br>
+		<span class="highlight">DevSecOps Training at TryHackMe</span><br>
+		Mastering securing pipelines and modern security practices in software development, equipped with skills in Infrastructure as Code (IaC) and Containerization security techniques.<br> 
+  		Ready to excel in DevSecOps, fortifying digital infrastructure against cyber threats.</p>
+		<p><span class="highlight">AWS Certified Cloud Practitioner</span><br>
+		Equipped with foundational knowledge and practical skills for navigating the AWS Cloud environment effectively. <br>
+  		Ready to drive innovation, scalability, and cost-efficiency for businesses through cloud initiatives.</p>
+		<p><span class="highlight">Junior Penetration Tester Certification at TryHackMe</span><br>
+		Acquiring core technical skills essential for penetration testing, prepared to enhance organizations' security posture and safeguard digital assets.</p>
+		<p><span class="highlight">Google Cybersecurity Professional Certificate on Coursera</span><br>
+		Mastery of cybersecurity concepts including risk assessment, threat identification, and vulnerability mitigation. <br>
+  		Ready to protect organizations from cyber threats and ensure a secure digital environment.</p>
+		<p><span class="highlight">JavaScript Applications Course at Software University (SoftUni)</span><br>
+		Gaining a comprehensive understanding of JavaScript for building complex web applications, including HTTP and REST services, asynchronous programming, and client-side rendering.</p>
+		<p><span class="highlight">JavaScript Advanced Course at Software University (SoftUni)</span><br>
+		Deepening understanding of advanced JavaScript features for building efficient and effective code, covering DOM manipulation, advanced functions, and error handling.</p>
+		<p><span class="highlight">Python OOP Course at Software University (SoftUni)</span><br>
+		Gaining expertise in object-oriented programming concepts and practical skills for developing efficient and scalable applications.</p>
+		<p><span class="highlight">Python Advanced Course at Software University (SoftUni)</span><br>
+		Proficiency in advanced Python features for developing efficient and effective applications, including lists, tuples, sets, and error handling.</p>
+		<p><span class="highlight">Programming Fundamentals Course at Software University (SoftUni)</span><br>
+		Acquiring foundational skills in programming and software development, covering basic syntax, data types, and functions.</p>
+		<p><span class="highlight">Programming Basics with Python Course at D. A. Tsenov Academy of Economics</span><br>
+		Introduction to programming with Python, covering basic syntax, loops, data types, and functions.</p>
+		<p><span class="highlight">Finance Course at D. A. Tsenov Academy of Economics</span><br>
+		Studying finance topics, including financial markets, investment analysis, and financial management.</p>
+		
+		<p><span class="highlight">EXPERTISE</span><br>
+		<span class="highlight">Software Support:</span> Providing comprehensive technical support for various software and applications.<br>
+		<span class="highlight">Software Engineering:</span> Developing efficient and scalable solutions to meet diverse business needs.<br>
+		<span class="highlight">Cybersecurity:</span> Identifying vulnerabilities and implementing security measures to safeguard digital assets.<br>
+		<span class="highlight">Penetration Testing:</span> Conducting thorough assessments to enhance organizational security posture.<br>
+		<span class="highlight">DevSecOps:</span> Integrating security practices into the software development lifecycle to ensure secure and efficient operations.</p>
+		
+		<p><span class="highlight">TECHNICAL SKILLS</span><br>
+		<span class="highlight">Programming Languages:</span> Proficient in Python, JavaScript, HTML, and CSS.<br>
+		<span class="highlight">Scripting & Automation:</span> Experienced in BASH scripting for automation and system tasks.<br>
+		<span class="highlight">Object-Oriented Programming:</span> Skilled in creating class hierarchies and implementing inheritance.<br>
+		<span class="highlight">Software Testing & Algorithms:</span> Knowledgeable in unit testing, iterators, generators, decorators, and basic algorithms.<br>
+		<span class="highlight">Data Structures:</span> Proficient in both linear and two-dimensional data structures.<br>
+		<span class="highlight">Web Development:</span> Capable of handling data streams, files, directories, HTTP, and developing simple single-page applications.<br>
+		<span class="highlight">Database Management:</span> Experienced with MySQL and MongoDB for efficient data management.<br>
+		<span class="highlight">Cloud Platforms:</span> Skilled in deploying and managing applications on AWS and Azure.<br>
+		<span class="highlight">Development Tools:</span> Proficient with Visual Studio Code (VSCode) and Jenkins for development and continuous integration.<br>
+		<span class="highlight">Operating Systems:</span> Experienced in Linux system administration.<br>
+		<span class="highlight">APIs & Networking:</span> Familiar with REST APIs, network protocols, and tools like Postman.<br>
+		<span class="highlight">Hardware & IoT:</span> Knowledgeable about Raspberry Pi and IoT applications.<br>
+		<span class="highlight">DOM Manipulation & JSON:</span> Adept in information extraction and manipulation using JSON and DOM tree techniques.<br>
+		<span class="highlight">Cybersecurity:</span> Well-versed in security principles, risk assessment, threat modeling, and incident response procedures.<br>
+		<span class="highlight">Penetration Testing:</span> Skilled in conducting vulnerability assessments, penetration testing, and identifying security weaknesses in systems and networks.<br>
+		<span class="highlight">DevSecOps:</span> Proficient in integrating security controls and best practices into CI/CD pipelines, ensuring secure and compliant software delivery.</p>
+
 
             `;
             break;
