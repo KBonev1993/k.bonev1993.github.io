@@ -167,8 +167,6 @@ function handleCommand(command) {
         <div class="social-icons">
             <a href="https://www.linkedin.com/in/kristiyan-bonev-53b374231/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
             <a href="https://github.com/kbonev1993" target="_blank"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a>
-            <a href="https://twitter.com/TheCoinHustlers" target="_blank"><img src="https://skillicons.dev/icons?i=twitter" alt="Twitter" /></a>
-            <a href="https://discord.gg/USQV5F2sY9" target="_blank"><img src="https://skillicons.dev/icons?i=discord" alt="Discord" /></a>
         </div>
     `;
             break;
